@@ -268,6 +268,11 @@
                 gap: 2rem;
                 max-width: 72rem;
             }
+            @media(max-width:400px){
+                footer .content{
+                    grid-template-columns: repeat( 1, minmax(0, 1fr));
+                }
+            }
             footer.creater{
                 display: flex;
                 flex-direction: column;
@@ -305,6 +310,7 @@
             }
             footer a:nth-child(3):hover{svg{fill:#fff;}}
             footer a:nth-child(4):hover{svg{fill:#27B43E;}}
+        
             .btn{
                 background-color: var(--main-color);
                 color: white;
@@ -545,7 +551,7 @@
                 title: "House in Khenifra",
                 type: "House",
                 price: 2500,
-                location: "Amalou, khenifra",
+                location: "Amalou, Khenifra",
                 userType: "Tourist",
                 Partners: 0,
                 image:"	https://www.mubawab-media.com/ad/8/074/641F/h/photo_0_79600865.avif"
@@ -565,7 +571,7 @@
                 title: "Apartment in Khenifra",
                 type: "Apartment",
                 price: 3400,
-                location: "El Masira, khenifra",
+                location: "El Masira, Khenifra",
                 userType: "Family",
                 Partners: 0,
                 image:"	https://www.mubawab-media.com/ad/7/115/909F/h/Dyour-Al-masjid-03052022_205314_21508372.avif"
