@@ -331,6 +331,11 @@
                 display: flex;
                 flex-direction: column;
             }
+            @media(max-width:400px){
+                footer .content{
+                    grid-template-columns: repeat( 1, minmax(0, 1fr));
+                }
+            }
             footer .em,.phon{
                 display: flex;
                 align-items: center;
